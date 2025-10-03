@@ -37,11 +37,13 @@ screen multi_choice_timed_screen(choices, timeout_seconds=5.0):
                     text_hover_color "#00ddff"
                     action Return(value)
 
+    #添加进度条动画
+    add Solid("#c276c7", xsize=400, ysize=50) as test_block at top, test_shrinking_transform(timeout_seconds)
 
 
 # Screen 2: 你的第二个屏幕也可以用同样的方式添加进度条
 # 这里为了简洁，仅作示意，你可以将上面 bar 的代码复制到你的 box_excuses_screen 中
-screen box_excuses_screen(timeout_seconds=7.0):
+screen box_excuses_screen(timeout_seconds=5.0):
     modal True
     timer timeout_seconds action Return('timeout_observe')
 
@@ -65,6 +67,8 @@ screen box_excuses_screen(timeout_seconds=7.0):
         textbutton "（艺术地）这是我的行为艺术作品，主题是‘被投递的孤独’。" action Return("art") text_color "#ffffff" text_hover_color "#00ddff"
         textbutton "（无辜地）我在模仿猫的行为，试图从它们的视角理解这个世界。" action Return("cat") text_color "#ffffff" text_hover_color "#00ddff"
 
+    #添加进度条动画
+    add Solid("#c276c7", xsize=400, ysize=50) as test_block at top, test_shrinking_transform(timeout_seconds)
 # -- 图像定义之后 --
 
 # 定义一个名为 "approach_from_distance" 的可复用动画

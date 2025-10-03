@@ -74,8 +74,7 @@ label s3b_close_encounter:
         ("先进来，我给你处理一下。", "accept"),
         ("抱歉，我帮不了你。", "reject")
     ]
-    show expression Solid("#c276c7", xsize=400, ysize=50) as test_block at top, test_shrinking_transform(5.0)
-    call screen multi_choice_timed_screen(choices=s3b_choices, timeout_seconds=5.0)
+    call screen multi_choice_timed_screen(choices=s3b_choices, timeout_seconds=3.0)
 
 
     # 使用我们刚刚定义的标签 "test_block" 来隐藏它
@@ -115,7 +114,6 @@ label s3x_box_hideout:
     
     p "（躲起来，是因为害怕被看见；偷偷地看，又是渴望被接纳。人心，真是矛盾的深渊。）"
     narrator "你很清楚，至少不能让“它”被发现。"
-    show expression Solid("#c276c7", xsize=400, ysize=50) as test_block at top, test_shrinking_transform(7.0)
     call screen box_excuses_screen
     
     $ excuse_choice = _return
