@@ -182,7 +182,11 @@ label search_for_doro_after_excuse:
 label s3c_knocking:
     scene bg living room dim
     narrator "不开门，世界就会用自己的方式开始敲门。"
+    scene bg corridor peephole
+    show doro hiding
     narrator "“咚……咚。”声音先是从走廊尽头响起，停顿片刻，又移到更近的门前，像是在练习礼貌。最后，它停在了我的门外。“咚。”，这一声，像是把我的名字轻轻敲在了门板背面。"
+    show bg living room dim
+    hide doro hiding
     p "又是这样。先是退缩，然后竖起耳朵倾听，心里默念着“快走吧，别来烦我”。我总渴望一个能让我独自清静的世界，但又隐隐害怕……如果这个世界真的不再需要我了，我又该去哪里呢？"
     menu:
         "〔此刻接纳〕解开门链，让它进来":
@@ -201,7 +205,11 @@ label s3c_knocking:
 label s3c_prime_knocking:
     scene bg living room dim
     narrator "黑暗让屋子变得更小，仿佛把我塞回了某个更久远的沉默里。"
+    scene bg corridor peephole
+    show doro hiding
     narrator "“咚……咚。”声音先是从走廊尽头响起，停顿片刻，又移到更近的门前，像是在练习礼貌。最后，它停在了我的门外。“咚。”，这一声，像是把我的名字轻轻敲在了门板背面。"
+    scene bg living room dim
+    hide doro hiding
     p "又是这样。先是退缩，然后竖起耳朵倾听，心里默念着“快走吧，别来烦我”。我总渴望一个能让我独自清静的世界，但又隐隐害怕……如果这个世界真的不再需要我了，我又该去哪里呢？"
     menu:
         "〔起身接纳〕我最终起身开门":
