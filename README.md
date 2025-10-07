@@ -40,14 +40,14 @@
 - [x] `bg_corridor_peephole.png` (猫眼视角下的走廊)
 - [x] `bg_corridor_normal.jpg` (正常视角的走廊)
 - [x] `bg_box_pov.png` (纸箱窥视视角的遮罩图层)
-- [ ] `bg_downstairs_trash_area.jpg` (楼下垃圾桶区域)
+- [x] `bg_downstairs_trash_area.jpg` (楼下垃圾桶区域)
 
 ### 角色立绘 (Character Sprites)
 - **Doro**
     - [x] `doro_injured_curled.png` (受伤蜷缩)
     - [x] `doro_hiding.png` (在阴影中躲藏)
     - [x] `doro_calm_indoors.png` (在室内安静的样子)
-    - [ ] `doro_in_trashcan.png` (在垃圾桶里的特殊差分)
+    - [x] `doro_in_trashcan.png` (在垃圾桶里的特殊差分)
 - **王阿姨 (Wang Ayi)**
     - [x] `wang_ayi_impatient.png` (不耐烦的样子)
     - [x] `wang_ayi_angry.png` (愤怒的差分)
@@ -56,5 +56,5 @@
 - [x] `ui_phone_call.png` (手机通话界面)
 - [ ] `fx_police_light.png` (警灯光效图层)
 - [x] `ui_computer_search.png` (电脑搜索结果界面)
-- [ ] `prop_oranges_sorted.png` (好、软、烂三堆橘子)
-- [ ] `prop_experiment_tray.png` (摆满实验品的托盘)
+- [x] `prop_oranges_sorted.png` (好、软、烂三堆橘子)
+- [x] `prop_experiment_tray.png` (摆满实验品的托盘)
